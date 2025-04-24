@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе - Меню</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-nav-container">
+            <div class="logo">Меню</div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="menu.html" class="nav-link active">Меню</a></li>
+                    <li class="nav-item"><a href="orders.html" class="nav-link">Заказы</a></li>
+                    <li class="nav-item"><a href="shifts.html" class="nav-link">Смены</a></li>
+                    <li class="nav-item"><a href="employees.html" class="nav-link">Сотрудники</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="user-info">
+            <a href="Authorizz.html">Выйти</a>
+        </div>
+    </header>
+    
+    <div class="controls">
+        <input type="text" class="search" placeholder="Поиск по меню...">
+        <select class="filter">
+            <option value="all">Все категории</option>
+            <option value="hot">Горячие блюда</option>
+            <option value="cold">Холодные закуски</option>
+            <option value="drinks">Напитки</option>
+            <option value="desserts">Десерты</option>
+        </select>
+        <select class="filter">
+            <option value="popular">По популярности</option>
+            <option value="price-asc">По цене (дешевые)</option>
+            <option value="price-desc">По цене (дорогие)</option>
+            <option value="name">По алфавиту</option>
+        </select>
+    </div>
+    
+    <div class="menu-container">
+
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/300x200?text=Бургер" alt="Бургер" class="item-image">
+            <div class="item-info">
+                <h3 class="item-title">Бургер классический</h3>
+                <p class="item-description">Говяжья котлета, сыр, салат, помидор, соус</p>
+                <div class="item-footer">
+                    <span class="item-price">350 ₽</span>
+                    <button class="add-to-order">Добавить</button>
+                </div>
+            </div>
+        </div>
+        
+       
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/300x200?text=Салат" alt="Салат" class="item-image">
+            <div class="item-info">
+                <h3 class="item-title">Салат Цезарь</h3>
+                <p class="item-description">Курица, салат айсберг, сухарики, пармезан, соус</p>
+                <div class="item-footer">
+                    <span class="item-price">290 ₽</span>
+                    <button class="add-to-order">Добавить</button>
+                </div>
+            </div>
+        </div>
+        
+  
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/300x200?text=Кофе" alt="Кофе" class="item-image">
+            <div class="item-info">
+                <h3 class="item-title">Капучино</h3>
+                <p class="item-description">Эспрессо с молочной пенкой, 200 мл</p>
+                <div class="item-footer">
+                    <span class="item-price">180 ₽</span>
+                    <button class="add-to-order">Добавить</button>
+                </div>
+            </div>
+        </div>
+        
+      
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/300x200?text=Суп" alt="Суп" class="item-image">
+            <div class="item-info">
+                <h3 class="item-title">Том Ям</h3>
+                <p class="item-description">Острый тайский суп с креветками и кокосовым молоком</p>
+                <div class="item-footer">
+                    <span class="item-price">420 ₽</span>
+                    <button class="add-to-order">Добавить</button>
+                </div>
+            </div>
+        </div>
+        
+     
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/300x200?text=Десерт" alt="Десерт" class="item-image">
+            <div class="item-info">
+                <h3 class="item-title">Тирамису</h3>
+                <p class="item-description">Итальянский десерт из печенья савоярди и сыра маскарпоне</p>
+                <div class="item-footer">
+                    <span class="item-price">320 ₽</span>
+                    <button class="add-to-order">Добавить</button>
+                </div>
+            </div>
+        </div>
+        
+       
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/300x200?text=Пицца" alt="Пицца" class="item-image">
+            <div class="item-info">
+                <h3 class="item-title">Пицца Маргарита</h3>
+                <p class="item-description">Томатный соус, моцарелла, базилик, 30 см</p>
+                <div class="item-footer">
+                    <span class="item-price">450 ₽</span>
+                    <button class="add-to-order">Добавить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <button class="to-order-btn">Перейти к заказу</button>
+    
+    
+    <button class="edit-menu-btn">Редактировать меню</button>
+    
+    
+</body>
+</html>
